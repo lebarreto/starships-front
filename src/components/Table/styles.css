@@ -1,0 +1,32 @@
+table {
+  /* display: block; */
+  max-height: 600px;
+  overflow: auto;
+  width: 900px;
+}
+
+#table {
+  border-collapse: collapse;
+  border: 1px solid #dee2e6;
+  font-size: 14px;
+  background-color: #dee2e6;
+}
+
+#table th,
+#table td {
+  text-align: left;
+  padding: 12px;
+}
+
+#table td {
+  font-weight: 400;
+}
+
+#table tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#table thead,
+#table tr:hover {
+  background-color: #ced4da;
+}

@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  background: url("../../../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 40px 0;
+}
+
+.App-table {
+  max-height: 600px;
+  overflow: auto;
+}
